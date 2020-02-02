@@ -59,6 +59,9 @@ h1{
 }
 
 h2{
+    font-size: 4em;
+}
+p{
     font-size: 3em;
 }
 
@@ -95,3 +98,39 @@ h2{
     color: white;
     border-color: var(--primary-dark);
 }
+
+a{
+    text-decoration: none;
+    text-emphasis: none;
+    color: #fff;
+}
+
+.card2{
+    margin:auto;
+    margin-top: 10%;
+    width: 90%;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.1);
+    transition: 0.4s;
+    color:var(--black);
+}
+.card2:hover{
+    cursor: pointer;
+    margin-top: 0%;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3);
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.card2 .imagen{
+    width: auto;
+    height: 260px;
+    border-radius: 14px;
+}
+
+.card2 .titulo{
+    padding: 1px;
+    text-align: center;
+}
+
