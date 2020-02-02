@@ -75,14 +75,15 @@ p{
     line-height: 1.471;
     border-radius: 6px;
     color: white;
-    background-color: var(--primary);
+    background-color: var(--blue);
 }
 .mBot{
     margin-bottom: 10px;
 }
 
 .btnPrimary:hover{
-    background-color: var(--primary-dark);
+    background-color: var(--blue);
+    cursor: pointer;
 }
 
 .btnSecond{
@@ -153,4 +154,8 @@ a{
 }
 .space{
     height: 50px;
+}
+
+.imagen3{
+    height: 200px;
 }

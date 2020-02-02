@@ -16,11 +16,13 @@
     <div class="lateral">
         <p class="txt">Herramientas</p>
         <div class="boton" onclick="abrirCerrar('calculadora')">
-            <svg>
-                <use xlink:href="img/resistor.svg"/>
-              </svg>            
+            <div class="icon" style="background: url('img/resistor.svg') no-repeat center; background-size: 70%;"></div>
+            <p>Calcular Resistencias</p>
         </div>
-        <div class="boton" onclick="abrirCerrar('duracion')"></div>
+        <div class="boton" onclick="abrirCerrar('duracion')" style="border-left-color:var(--red)">
+            <div class="icon" style="background: url('img/time.svg') no-repeat center; background-size: 70%;"></div>
+            <p>Calcular duración</p>
+        </div>
     </div>   
         
     <div class="desplegable">
@@ -36,7 +38,7 @@
             <div class="row">
                 <div class="col-12">
                     <h1 class="cabecera">Taller</h1>
-                    <p class="mAuto">Vamos a construir un circuito con el integrado 555</p>
+                    <p class="mAuto">Vamos a realizar el circuito de un semaforo automatico con el integrado 555.</p>
                     <div style="background: url('img/circuito.gif') no-repeat center; background-size: 100%; width: 500px;height: 342px;margin: auto;" ></div>
                     <br>
                     <br>
