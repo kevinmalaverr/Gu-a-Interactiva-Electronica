@@ -61,3 +61,8 @@
 .desplegable .cerrar .boton:hover{
     color:red;
 }
+
+svg{
+    width: 70px;
+    height: 70px;
+}
