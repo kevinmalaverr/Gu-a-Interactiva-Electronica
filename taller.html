@@ -7,17 +7,160 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/transition.css">
+    <link rel="stylesheet" href="css/sidebar.css">
     <script src="js/jQuery.js"></script>
     <title></title>
 </head>
 <body>
-    <div class="transition">
-        <div class="top-layer"></div>
-        <div class="top-layer top-layer--2"></div>
-        <div class="top-layer top-layer--3"></div>
-        <div class="top-layer top-layer--4"></div>
-        <div class="top-layer top-layer--5"></div>
+    <div class="transition"><div>
+    <div class="lateral">
+        <p class="txt">Herramientas</p>
+        <div class="boton" onclick="abrirCerrar('calculadora')">
+            <svg>
+                <use xlink:href="img/resistor.svg" />
+              </svg>            
+        </div>
+        <div class="boton" onclick="abrirCerrar('duracion')"></div>
+    </div>   
+        
+    <div class="desplegable">
+        <div class="cerrar">
+            <div class="boton" onclick="cerrar()">
+                <h1>X</h1>
+            </div>
+        </div>
+        <iframe id="fra" src="calculadora.html" frameborder="0"></iframe>
+    </div>        
+    <div class="principal">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="cabecera">Taller</h1>
+                    <p class="mAuto">Vamos a construir un circuito con el integrado 555</p>
+                    <div style="background: url('img/circuito.gif') no-repeat center; background-size: 100%; width: 500px;height: 342px;margin: auto;" ></div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h1>Materiales</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="imagen" style="background: url('img/resistencia.jpg') center; background-size: 100%"></div>
+                </div>
+                <div class="col-12">
+                    <div style="position: relative; top: 25%;">
+                        <h2>Resistencias</h2>
+                        <h3>Cantidad: x4</h3>
+                    </div>  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="imagen" style="background: url('img/led.jpg') center; background-size: 100%"></div>
+                </div>
+                <div class="col-12">
+                    <div style="position: relative; top: 25%;">
+                        <h2>Led</h2>
+                        <h3>Cantidad: x2</h3>
+                    </div>  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="imagen" style="background: url('img/condensador.jpg') center; background-size: 100%"></div>
+                </div>
+                <div class="col-12">
+                    <div style="position: relative; top: 25%;">
+                        <h2>Condensador</h2>
+                        <h3>Cantidad: x1</h3>
+                    </div>  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="imagen" style="background: url('img/CondensadorNP.jpg') center; background-size: 100%"></div>
+                </div>
+                <div class="col-12">
+                    <div style="position: relative; top: 25%;">
+                        <h2>Condensador Ceramico</h2>
+                        <h3>Cantidad: x1</h3>
+                    </div>  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="imagen" style="background: url('img/555.jpg') center; background-size: 100%"></div>
+                </div>
+                <div class="col-12">
+                    <div style="position: relative; top: 25%;">
+                        <h2>Circuito Integrado 555</h2>
+                        <h3>Cantidad: x1</h3>
+                    </div>  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-7">
+                    <div class="imagen2" style="background: url('img/paso-1.jpg') no-repeat center; background-size: 100%"></div>
+                </div>
+                <div class="col-5">
+                    <p></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-7">
+                    <div class="imagen2" style="background: url('img/paso-2.jpg') no-repeat center; background-size: 100%"></div>
+                </div>
+                <div class="col-5">
+                    <p></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-7">
+                    <div class="imagen2" style="background: url('img/paso-3.jpg') no-repeat center; background-size: 100%"></div>
+                </div>
+                <div class="col-5">
+                    <p></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-7">
+                    <div class="imagen2" style="background: url('img/paso-4.jpg') no-repeat center; background-size: 100%"></div>
+                </div>
+                <div class="col-5">
+                    <p></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-7">
+                    <div class="imagen2" style="background: url('img/paso-5.jpg') no-repeat center; background-size: 100%"></div>
+                </div>
+                <div class="col-5">
+                    <p></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-7">
+                    <div class="imagen2" style="background: url('img/paso-6.jpg') no-repeat center; background-size: 100%"></div>
+                </div>
+                <div class="col-5">
+                    <p></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-7">
+                    <div class="imagen2" style="background: url('img/paso-7.jpg') no-repeat center; background-size: 100%"></div>
+                </div>
+                <div class="col-5">
+                    <p></p>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="js/transition.js"></script>
+    <script src="js/sidebar.js"></script>
 </body>
 </html>

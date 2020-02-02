@@ -1,0 +1,63 @@
+.lateral{
+    position: fixed;
+    z-index: 10;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 50px;
+    background-color: transparent;
+}
+
+.lateral .txt{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    letter-spacing: 0.3em;
+}
+.lateral .boton{
+    width: 50px;
+    height: 50px;
+    background-color: var(--black);
+    transition: 500ms;
+}
+
+.lateral .boton:hover{
+    width: 150px;
+    cursor: pointer;
+}
+
+.desplegable{
+    z-index: 5;
+    position: fixed;
+    opacity: 0;
+    height: 100%;
+    width: 0px;
+    top:0px;
+    left: 50px;
+    background-color: white;
+    transition: opacity 200ms;
+}
+
+.desplegable iframe{
+    height: 90%;
+    bottom: 0px;
+}
+
+.desplegable .cerrar{
+    height: 60px;
+}
+
+
+.desplegable .cerrar .boton{
+    position: absolute;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    transition-duration: 500ms;
+}
+
+
+.desplegable .cerrar .boton:hover{
+    color:red;
+}

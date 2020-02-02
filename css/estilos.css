@@ -61,6 +61,9 @@ h1{
 h2{
     font-size: 4em;
 }
+h3{
+    font-size: 3em;
+}
 p{
     font-size: 3em;
 }
@@ -134,3 +137,20 @@ a{
     text-align: center;
 }
 
+.imagen{
+    width: 250px;
+    height: 250px;
+    max-width: 100%;
+}
+
+.imagen2{
+    width: 600px;
+    height: 350px;
+    max-width: 100%;
+}
+.cabecera{
+    margin-top: 20%;margin-bottom: 100px; font-size: 8em;
+}
+.space{
+    height: 50px;
+}
