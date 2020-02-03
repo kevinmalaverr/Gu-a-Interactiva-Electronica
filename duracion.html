@@ -8,38 +8,42 @@
     <link rel="stylesheet" href="css/transition.css">
     <link rel="stylesheet" href="css/duracion.css">
     <link rel="stylesheet" href="css/grid.css">
+    <script src="js/jQuery.js"></script>
     <title>Document</title>
 </head>
 <body>
     <div class="principal center">
         <div class="container">
-        <div class="row">
-            <div class="col-12">
-            <div class="form__group field">
-                <input type="input" class="form__field" placeholder="R1" name="r1" id='r1' required />
-                <label for="r1" class="form__label">r1</label>
-            </div>  
+            <div class="col">
+                <div class="row-12">
+                    <h1>
+                        Calcular tiempo de oscilación
+                    </h1>
+                </div>
             </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                        <input class="form-field" id="res1" type="email" placeholder="Resistencia 1">
+                        <span>Ohms</span>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-field" id="res2" type="email" placeholder="Resistencia 2">
+                        <span>Ohms</span>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-field" id="con" type="email" placeholder="Condensador">
+                        <span>micro faradios</span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="btnPrimary">Calcular</div>
+                    <h1 class="resultado">-</h1>
+                </div>              
+            </div>    
         </div>
-        <div class="row">
-            <div class="col-12">
-            <div class="form__group field">
-                <input type="input" class="form__field" placeholder="R1" name="r1" id='r1' required />
-                <label for="r1" class="form__label">r1</label>
-            </div>  
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-            <div class="form__group field">
-                <input type="input" class="form__field" placeholder="R1" name="r1" id='r1' required />
-                <label for="r1" class="form__label">r1</label>
-            </div>  
-            </div>
-        </div>    
-        
     </div>
-    </div>
+    <script src="js/duracion.js"></script>
     
 </body>
 </html>
